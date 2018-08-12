@@ -5,11 +5,10 @@ module.exports = function(app, db) {
 
     app.post('/login', async (req, res) => {
         
-        
         // You'll create 
         console.log('Logging IN');
         console.log('Checking Email and Password');
-        console.log(req.body.email + " " + req.body.password);
+        console.log(req.body.Email + " " + req.body.Password);
         var log = String(req.body.Email);
         var password = String(req.body.Password);
 
