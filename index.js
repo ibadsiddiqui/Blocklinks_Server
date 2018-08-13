@@ -1,4 +1,3 @@
-const Web3 = require('./app/web3');
 
 const express = require('express');
 const bodyParser = require('body-parser');
